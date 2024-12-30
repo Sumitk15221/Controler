@@ -1,0 +1,98 @@
+/* General styling for body */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+.logo img {
+    max-width: 100px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.social-icons a img {
+    width: 20px;
+    margin-left: 10px;
+}
+
+/* Content section styling */
+.content {
+    text-align: center;
+    padding: 50px;
+    background-color: #2b2b2b;
+    color: white;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f39c12;
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.more-info {
+    color: #f39c12;
+    text-decoration: none;
+}
+
+.food-image {
+    margin-top: 30px;
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+/* Footer styling */
+footer {
+    padding: 20px;
+    text-align: right;
+    background-color: #333;
+    color: white;
+}
+
+.next {
+    color: #f39c12;
+    text-decoration: none;
+}
+
+/* Responsive styling for mobile */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .food-image {
+        max-width: 100%;
+    }
+}
